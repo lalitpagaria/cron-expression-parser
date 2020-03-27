@@ -14,7 +14,7 @@ Basically each fields of cron expression is parsed individually. For each field 
 
 For each char type special validations checks are performed. For digit in expression, invalid chars, number radix, min and max ranged checks are performed. For step char (`/`), number of arguments, divide by zero and negative numbers checks are performed. For asterisk char (`*`), multiple occurrence check is performed. And for range char (`-`), number range and number of arguments checks are performed. All of these checked are unit tested.
 
-Due to time constraint following cases are are not handled -
+In future following cases can be handled -
 1) Handle any value char `?`
 2) Allow `SUN-SAT` representation for day of the week along with `0-6`
 3) Allow `JAN-DEC` representation for month along with `1-12`
